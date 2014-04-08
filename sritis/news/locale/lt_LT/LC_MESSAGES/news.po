@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vasara2\n"
+"POT-Creation-Date: 2013-05-31 22:19+0200\n"
+"PO-Revision-Date: 2013-05-31 22:21+0200\n"
+"Last-Translator: Nerijus Eimanavičius <nerijus@eimanavicius.lt>\n"
+"Language-Team: Nerijus <nerijus@eimanavicius.lt>\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: RemoteSystemsTempFiles\\GREITAS.COM\\public_html"
+"\\vasara2\n"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:6
+msgid "Back"
+msgstr "Atgal"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:7
+msgid "New article"
+msgstr "Naujas straipsnis"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:7
+msgid "Edit article"
+msgstr "Redaguoti straipsnį"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:10
+msgid "Errors"
+msgstr "Klaidos"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:24
+msgid "Category"
+msgstr "Tema"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:25
+msgid "Author"
+msgstr "Autorius"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:26
+msgid "Title"
+msgstr "Pavadinimas"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:27
+msgid "Content"
+msgstr "Tekstas"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_form.php:28
+msgid "Save"
+msgstr "Saugoti"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_list.php:6
+msgid "Admin Listing"
+msgstr "Admin Sąrašas"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_list.php:7
+msgid "New"
+msgstr "Naujas"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_list.php:9
+msgid "Search"
+msgstr "Paieška"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_list.php:21
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_list.php:22
+msgid "Do you realy want to delete?"
+msgstr "Ar tikrai norite trinti?"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_list.php:22
+msgid "Delete"
+msgstr "Trinti"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/admin_list.php:29
+msgid "No articles found."
+msgstr "Straipsnių nerasta."
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/article.php:7
+#, php-format
+msgid "Back to %s"
+msgstr "Atgal į %s"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/article.php:8
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/category.php:4
+msgid "Back to news"
+msgstr "Atgal į naujienas"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/articles.php:4
+msgid "News"
+msgstr "Naujienos"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/example_class.php:155
+msgid "Database error."
+msgstr "Duomenų bazės klaida."
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/example_class.php:168
+msgid "Please, fill category field."
+msgstr "Prašome užpildyti temos lauką."
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/example_class.php:171
+msgid "Please, fill author field."
+msgstr "Prašome užpildyti autoriaus lauką."
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/example_class.php:174
+msgid "Please, fill title field."
+msgstr "Prašome užpildyti pavadinimo lauką."
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/example_class.php:177
+msgid "Please, fill content field."
+msgstr "Prašome užpildyti teksto lauką."
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/partial_pagination.php:17
+msgid "Previous"
+msgstr "Buvęs"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/partial_pagination.php:60
+msgid "Next"
+msgstr "Kitas"
+
+#: RemoteSystemsTempFiles\GREITAS.COM\public_html\vasara2/sritis/example/partial_pagination.php:63
+#, php-format
+msgid "Page %d of %d"
+msgstr "Puslapis %d iš %d"

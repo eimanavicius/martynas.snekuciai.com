@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteBase /martynas_mvc
+
+RewriteCond %{HTTP_HOST} !^nerijus\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://nerijus.snekuciai.com/martynas_mvc/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ index.php [NC,L]
