@@ -1,9 +1,9 @@
 RewriteEngine On
 
-RewriteBase /martynas_mvc
+RewriteBase /
 
-RewriteCond %{HTTP_HOST} !^nerijus\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://nerijus.snekuciai.com/martynas_mvc/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^martynas\.snekuciai\.com(.*)$ [NC]
+RewriteRule ^(.*)$ http://martynas.snekuciai.com/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
