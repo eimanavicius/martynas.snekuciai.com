@@ -37,7 +37,9 @@ if(isset($_GET['init'])) {
 // 	var_dump($db->query("SELECT * FROM sqlite_master WHERE type='table';")->fetchAll());
 }
 
-// lankomumas
+/*
+ * Lankomumas
+ */
 $ip = $_SERVER['REMOTE_ADDR'];
 $useragent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
 try {
@@ -45,4 +47,23 @@ try {
 	$sth->execute(array($ip, $useragent));
 } catch (Exception $e) {
 // 	var_dump($e->getMessage());
+}
+
+/*
+ * Access-Control-Allow-Origin
+ */
+$httpReferer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : null;
+$ref = null;
+
+if (null !== $httpReferer) {
+    foreach (['http://demolt.ashop.me', 'http://dg37.com.au', 'http://www.dg37.com.au'] as $site) {
+        if (strpos($httpReferer, $site) === 0) {
+            $ref = $site;
+            break;
+        }
+    }
+}
+
+if (null !== $ref) {
+    header("Access-Control-Allow-Origin: " . $ref);
 }
