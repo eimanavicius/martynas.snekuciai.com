@@ -56,7 +56,7 @@ $httpReferer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : null
 $ref = null;
 
 if (null !== $httpReferer) {
-    foreach (['http://demolt.ashop.me', 'http://dg37.com.au', 'http://www.dg37.com.au'] as $site) {
+    foreach (['http://nerijus.snekuciai.com'] as $site) {
         if (strpos($httpReferer, $site) === 0) {
             $ref = $site;
             break;
