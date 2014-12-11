@@ -1,0 +1,15 @@
+{
+    "name": "nerijus/martynas",
+    "description": "Playground for making home made framework migration to real one.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nerijus Eimanavičius",
+            "email": "nerijus@eimanavicius.lt"
+        }
+    ],
+    "require": {
+        "zendframework/zend-http": "2.3.3"
+    }
+}
