@@ -7,7 +7,7 @@ require_once 'system/model.php';
  */
 class meniu_class extends system_model {
 	public function gauti_foto_kategorijas() {
-		$failas = '../../vasara2/img/foto';
+		$failas = '/home/martynas/www/greitas.com/afoto/';
 		$listas = $this->listas($failas);
 		ksort($listas);
 		return $listas;
