@@ -34,7 +34,11 @@ set :deploy_to, '/var/www/martynas.snekuciai.com'
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 
+SSHKit.config.command_map[:composer] = "php #{shared_path.join("composer.phar")}"
+
 namespace :deploy do
+
+  after :starting, 'composer:install_executable'
 
   desc 'Restart application'
   task :restart do
