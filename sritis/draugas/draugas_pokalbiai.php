@@ -21,6 +21,19 @@ foreach ($this->chats as $id => $chat) {
 	echo '</div>';
 }
 
+if (empty($this->chats)) {
+    echo <<<HTML
+<div class="ui-widget">
+    <div class="ui-state-highlight ui-corner-all" style="padding: 0 .7em;">
+        <p>
+            <span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+            Pokalbių sąrašas tuščias.
+        </p>
+    </div>
+</div>
+HTML;
+}
+
 $this->paginate();
 
 // echo '<pre>';
