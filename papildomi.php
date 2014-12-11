@@ -1,8 +1,8 @@
 <?php
 
 class config {
-	public $audio_dir = '/home/simne/domains/greitas.com/public_html/audio';
-	
+	public $audio_dir = '/home/martynas/www/greitas.com/audio';
+
 	public $martynas_pdo_dsn = 'mysql:host=localhost;dbname=simne_demo';
 	public $martynas_pdo_user = 'sekuritis';
 	public $martynas_pdo_password = '~WFKb#}FjA4!{%fn';
@@ -13,8 +13,8 @@ class config {
 		PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
 		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 	);
-	
-	
+
+
 }
 
 global $db, $config;
